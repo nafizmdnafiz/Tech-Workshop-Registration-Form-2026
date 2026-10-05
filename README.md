@@ -6,4 +6,6 @@ This project is Tech Workshop Registration Form. I built this project to practic
 
 #Live Demo
 
+You can view the live version of this portfolio website here:
+
 [Registration Form]
