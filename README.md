@@ -8,4 +8,6 @@ This project is Tech Workshop Registration Form. I built this project to practic
 
 You can view the live version of this portfolio website here:
 
-[Registration Form]
+[Registration Form] https://nafizmdnafiz.github.io/Tech-Workshop-Registration-Form-2026/
+
+The live demo shows the full site
