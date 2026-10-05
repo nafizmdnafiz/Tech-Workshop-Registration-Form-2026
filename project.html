@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Workshop Registration 2026</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Tech Workshop Registration Form 2026</h1>
+        <p>Please fill out the form below to participate in this special Web Development workshop.</p>
+    </header>
+
+    <hr>
+
+    <!-- Main Registration Form -->
+    <main>
+        <form action="#" method="POST">
+
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend><strong>Personal Information</strong></legend>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+1234567890" required>
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob">
+                </p>
+
+                <p>
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Event Preferences Section -->
+            <fieldset>
+                <legend><strong>Preferences & Experience</strong></legend>
+
+                <p>
+                    <label for="profession">Current Occupation:</label><br>
+                    <select id="profession" name="profession" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="student">Student</option>
+                        <option value="jobholder">Employed</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>What is your experience level with HTML?</label><br>
+                    <input type="radio" id="beginner" name="experience" value="beginner">
+                    <label for="beginner">Beginner</label><br>
+                    <input type="radio" id="intermediate" name="experience" value="intermediate">
+                    <label for="intermediate">Intermediate</label><br>
+                    <input type="radio" id="advanced" name="experience" value="advanced">
+                    <label for="advanced">Advanced</label>
+                    <br><input type="radio" id="Senior Developer" name="experience" value="senior developer">
+                    <label for="Senior Developer">Senior Developer</label>
+                </p>
+
+                <p>
+                    <label>Which topics are you interested in?</label><br>
+                    <input type="checkbox" id="html" name="interest" value="html" checked>
+                    <label for="html">HTML & CSS</label><br>
+                    <input type="checkbox" id="js" name="interest" value="javascript">
+                    <label for="js">JavaScript</label><br>
+                    <input type="checkbox" id="git" name="interest" value="git_github">
+                    <label for="git">Git & GitHub</label>
+                </p>
+
+                <p>
+                    <label for="id_proof">Upload Student ID or Photo ID (optional):</label><br>
+                    <input type="file" id="id_proof" name="id_proof">
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Additional Information Section -->
+            <fieldset>
+                <legend><strong>Additional Comments</strong></legend>
+
+                <p>
+                    <label for="comments">What do you hope to learn from this workshop?</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Type your response here..."></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the event terms and conditions.</label>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Action Buttons -->
+            <button type="submit">Submit Registration</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Tech Event Organization. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
